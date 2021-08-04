@@ -53,17 +53,20 @@
           fetch="git://github.com/Freescale"/>
   <project name="meta-freescale"
            remote="freescale"
-           revision="14f1a630a47375432f93c556927b879b51d84c4e"
+           revision="21594e7ffe2c9dc0b5a3c6519fd93784740be4c6"
+           upstream="hardknott"
            path="sources/meta-freescale"/>
   <project name="meta-freescale-3rdparty"
            remote="freescale"
-           revision="dbcc686f52c3c84db8cb86aa8973a4e373651b98"
+           revision="7f23af99cb97a12134a46b5b9d497f05b758bf0c"
+           upstream="hardknott"
            path="sources/meta-freescale-3rdparty"/>
 
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi"
            remote="yocto"
-           revision="0e05098853eea77032bff9cf81955679edd2f35d"
+           revision="064f5404ea90f02bd15088de6317692098d9f770"
+           upstream="hardknott"
            path="sources/meta-raspberrypi"/>
 
   <!-- Intel -->
