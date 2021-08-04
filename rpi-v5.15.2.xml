@@ -21,11 +21,13 @@
           fetch="git://github.com/openembedded"/>
   <project name="meta-openembedded"
            remote="oe"
-           revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b"
+           revision="c3a36263f91e42302ad7c347e051cf1cd83e39f6"
+           upstream="hardknott"
            path="sources/meta-openembedded"/>
   <project name="meta-python2"
            remote="oe"
-           revision="4400f9155ec193d028208cf0c66aeed2ba2b00ab"
+           revision="8db9e4f6ceae33d7a4f55453d31e69f9858af4eb"
+           upstream="hardknott"
            path="sources/meta-python2"/>
 
   <!-- Qt -->
