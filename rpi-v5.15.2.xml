@@ -5,12 +5,10 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="poky"
            remote="yocto"
-           revision="e1839b58ebe05242a52fe050aa9a08140136aa0a"
            upstream="hardknott"
            path="sources/poky"/>
   <project name="meta-mingw"
            remote="yocto"
-           revision="422b96cb2b6116442be1f40dfb5bd77447d1219e"
            upstream="hardknott"
            path="sources/meta-mingw"/>
 
