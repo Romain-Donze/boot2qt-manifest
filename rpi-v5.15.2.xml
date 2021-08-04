@@ -33,16 +33,14 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="qt"
-           revision="dev"
-           upstream="dev"
+           revision="5f23cb2d6836bbad3a1fa982089ccf20bf0c6245"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
     <linkfile dest="sources/templates" src="meta-boot2qt-distro/conf"/>
   </project>
   <project name="meta-qt5"
            remote="qt"
-           revision="dev"
-           upstream="dev"
+           revision="72459ce0639eb3ce408558a7abede945e1f8ddc9"
            path="sources/meta-qt5"/>
 
   <!-- NXP -->
