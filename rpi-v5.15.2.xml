@@ -74,7 +74,8 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="meta-intel"
            remote="intel"
-           revision="55b53335c1bf5e120e8038f86ab69d5417bf3e73"
+           revision="4d5791d9ff515ba1660234b1987eae4d4e90eeca"
+           upstream="hardknott"
            path="sources/meta-intel"/>
 
   <!-- NVIDIA -->
@@ -82,7 +83,8 @@
           fetch="git://github.com/OE4T"/>
   <project name="meta-tegra"
            remote="OE4T"
-           revision="b97c15cbb87323a56e73873efd825ef1901e6172"
+           revision="2c0bce1a85b6cbfc0ce5df0a92f667a869f2966c"
+           upstream="hardknott"
            path="sources/meta-tegra"/>
   <!-- internal layer for the nvidia devnet downloads -->
   <remote name="playground"
@@ -98,11 +100,13 @@
           fetch="git://git.toradex.com"/>
   <project name="meta-toradex-bsp-common"
            remote="toradex"
-           revision="a8f298d69fe4cdab6c59a8965fbc5cdba83f3a7e"
+           revision="943f7da5a1cbbf695c3385b59e33aaea0c87904c"
+           upstream="dunfell-5.x.y"
            path="sources/meta-toradex-bsp-common"/>
   <project name="meta-toradex-nxp"
            remote="toradex"
-           revision="d7121ef91af1b15f1038cb4cb51e53bab8c53d89"
+           revision="eb8b2c26f3c73ea30a535813976dba93d60dd1eb"
+           upstream="dunfell-5.x.y"
            path="sources/meta-toradex-nxp"/>
 
   <!-- BoundaryDevices -->
