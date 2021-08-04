@@ -24,6 +24,11 @@
            revision="c3a36263f91e42302ad7c347e051cf1cd83e39f6"
            upstream="hardknott"
            path="sources/meta-openembedded"/>
+  <project name="meta-python2"
+           remote="oe"
+           revision="8db9e4f6ceae33d7a4f55453d31e69f9858af4eb"
+           upstream="hardknott"
+           path="sources/meta-python2"/>
 
   <!-- Qt -->
   <remote name="qt"
