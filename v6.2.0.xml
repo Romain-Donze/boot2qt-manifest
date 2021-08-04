@@ -5,11 +5,13 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="poky"
            remote="yocto"
-           revision="d88d62c20d7d8da85f02edb170dae0280624ad7e"
+           revision="e1839b58ebe05242a52fe050aa9a08140136aa0a"
+           upstream="hardknott"
            path="sources/poky"/>
   <project name="meta-mingw"
            remote="yocto"
-           revision="756963cc28ebc163df7d7f4b4ee004c18d3d3260"
+           revision="422b96cb2b6116442be1f40dfb5bd77447d1219e"
+           upstream="hardknott"
            path="sources/meta-mingw"/>
 
   <!-- OpenEmbedded -->
@@ -19,12 +21,9 @@
           fetch="git://github.com/openembedded"/>
   <project name="meta-openembedded"
            remote="oe"
-           revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b"
+           revision="c3a36263f91e42302ad7c347e051cf1cd83e39f6"
+           upstream="hardknott"
            path="sources/meta-openembedded"/>
-  <project name="meta-python2"
-           remote="oe"
-           revision="4400f9155ec193d028208cf0c66aeed2ba2b00ab"
-           path="sources/meta-python2"/>
 
   <!-- Qt -->
   <remote name="qt"
@@ -34,32 +33,37 @@
           fetch="ssh://codereview.qt-project.org/yocto"/>
   <project name="meta-boot2qt"
            remote="qt"
-           revision="f954ff7324550acaf6156c1d63dd87212b835b8b"
+           revision="6.2"
+           upstream="6.2"
            path="sources/meta-boot2qt">
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
     <linkfile dest="sources/templates" src="meta-boot2qt-distro/conf"/>
   </project>
-  <project name="meta-qt5"
+  <project name="meta-qt6"
            remote="qt"
-           revision="72459ce0639eb3ce408558a7abede945e1f8ddc9"
-           path="sources/meta-qt5"/>
+           revision="6.2"
+           upstream="6.2"
+           path="sources/meta-qt6"/>
 
   <!-- NXP -->
   <remote name="freescale"
           fetch="git://github.com/Freescale"/>
   <project name="meta-freescale"
            remote="freescale"
-           revision="14f1a630a47375432f93c556927b879b51d84c4e"
+           revision="21594e7ffe2c9dc0b5a3c6519fd93784740be4c6"
+           upstream="hardknott"
            path="sources/meta-freescale"/>
   <project name="meta-freescale-3rdparty"
            remote="freescale"
-           revision="dbcc686f52c3c84db8cb86aa8973a4e373651b98"
+           revision="7f23af99cb97a12134a46b5b9d497f05b758bf0c"
+           upstream="hardknott"
            path="sources/meta-freescale-3rdparty"/>
 
   <!-- Raspberry Pi -->
   <project name="meta-raspberrypi"
            remote="yocto"
-           revision="0e05098853eea77032bff9cf81955679edd2f35d"
+           revision="064f5404ea90f02bd15088de6317692098d9f770"
+           upstream="hardknott"
            path="sources/meta-raspberrypi"/>
 
   <!-- Intel -->
@@ -67,7 +71,8 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="meta-intel"
            remote="intel"
-           revision="55b53335c1bf5e120e8038f86ab69d5417bf3e73"
+           revision="4d5791d9ff515ba1660234b1987eae4d4e90eeca"
+           upstream="hardknott"
            path="sources/meta-intel"/>
 
   <!-- NVIDIA -->
@@ -75,7 +80,8 @@
           fetch="git://github.com/OE4T"/>
   <project name="meta-tegra"
            remote="OE4T"
-           revision="b97c15cbb87323a56e73873efd825ef1901e6172"
+           revision="2c0bce1a85b6cbfc0ce5df0a92f667a869f2966c"
+           upstream="hardknott"
            path="sources/meta-tegra"/>
   <!-- internal layer for the nvidia devnet downloads -->
   <remote name="playground"
@@ -91,18 +97,13 @@
           fetch="git://git.toradex.com"/>
   <project name="meta-toradex-bsp-common"
            remote="toradex"
-           revision="a8f298d69fe4cdab6c59a8965fbc5cdba83f3a7e"
+           revision="943f7da5a1cbbf695c3385b59e33aaea0c87904c"
+           upstream="dunfell-5.x.y"
            path="sources/meta-toradex-bsp-common"/>
   <project name="meta-toradex-nxp"
            remote="toradex"
-           revision="d7121ef91af1b15f1038cb4cb51e53bab8c53d89"
+           revision="eb8b2c26f3c73ea30a535813976dba93d60dd1eb"
+           upstream="dunfell-5.x.y"
            path="sources/meta-toradex-nxp"/>
 
-  <!-- BoundaryDevices -->
-  <remote name="boundary"
-          fetch="git://github.com/boundarydevices"/>
-  <project name="meta-boundary"
-           remote="boundary"
-           revision="5e33c4b077a155ca858683b2e1f776694932f116"
-           path="sources/meta-boundary"/>
 </manifest>
