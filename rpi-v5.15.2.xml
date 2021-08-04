@@ -5,11 +5,13 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="poky"
            remote="yocto"
-           revision="f2eb22a8783f1eecf99bd4042695bab920eed00e"
+           revision="e1839b58ebe05242a52fe050aa9a08140136aa0a"
+           upstream="hardknott"
            path="sources/poky"/>
   <project name="meta-mingw"
            remote="yocto"
-           revision="756963cc28ebc163df7d7f4b4ee004c18d3d3260"
+           revision="422b96cb2b6116442be1f40dfb5bd77447d1219e"
+           upstream="hardknott"
            path="sources/meta-mingw"/>
 
   <!-- OpenEmbedded -->
