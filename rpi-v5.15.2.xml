@@ -114,6 +114,7 @@
           fetch="git://github.com/boundarydevices"/>
   <project name="meta-boundary"
            remote="boundary"
-           revision="317c4f037b8b82811be56a271266fb31cdd1fc7a"
+           revision="cc55b7db1205c0f7d4acf661973667415a49541a"
+           upstream="hardknott"
            path="sources/meta-boundary"/>
 </manifest>
