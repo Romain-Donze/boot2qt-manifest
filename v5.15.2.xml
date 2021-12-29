@@ -105,4 +105,12 @@
            remote="boundary"
            revision="5e33c4b077a155ca858683b2e1f776694932f116"
            path="sources/meta-boundary"/>
+
+  <!-- Ecosysteme -->
+  <remote name="ecosysteme"
+          fetch="git://github.com/Romain-Donze"/>
+  <project name="meta-ecosysteme"
+           remote="ecosysteme"
+           revision="a43260dcba81ee96466e7da6fbf1f72055e87654"
+           path="sources/meta-ecosysteme"/>
 </manifest>
