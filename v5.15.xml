@@ -5,7 +5,7 @@
           fetch="git://git.yoctoproject.org"/>
   <project name="poky"
            remote="yocto"
-           revision="74b22db6879b388d700f61e08cb3f239cf940d18"
+           revision="bba323389749ec3e306509f8fb12649f031be152"
            upstream="dunfell"
            path="sources/poky"/>
   <project name="meta-mingw"
@@ -19,7 +19,7 @@
           fetch="git://git.openembedded.org"/>
   <project name="meta-openembedded"
            remote="oe"
-           revision="7889158dcd187546fc5e99fd81d0779cad3e8d17"
+           revision="ec978232732edbdd875ac367b5a9c04b881f2e19"
            upstream="dunfell"
            path="sources/meta-openembedded"/>
   <project name="meta-python2"
