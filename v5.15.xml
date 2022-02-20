@@ -32,7 +32,7 @@
   <remote name="boot2qt"
           fetch="git://github.com/Romain-Donze"/>
   <project name="meta-boot2qt"
-           remote="qt"
+           remote="boot2qt"
            revision="bbea7d39035774aed74f5205443d5d834d65d64a"
            path="sources/meta-boot2qt"/>
     <linkfile dest="setup-environment.sh" src="scripts/setup-environment.sh"/>
