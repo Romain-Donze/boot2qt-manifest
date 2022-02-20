@@ -115,4 +115,12 @@
            revision="e21fc9dec890947c2644d62ec7af5d83cb8798d7"
            upstream="dunfell"
            path="sources/meta-boundary"/>
+  
+  <!-- Ecosysteme -->
+  <remote name="ecosysteme"
+          fetch="git://github.com/Romain-Donze"/>
+  <project name="meta-ecosysteme"
+           remote="ecosysteme"
+           revision="a43260dcba81ee96466e7da6fbf1f72055e87654"
+           path="sources/meta-ecosysteme"/>
 </manifest>
